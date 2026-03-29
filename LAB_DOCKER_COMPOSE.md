@@ -378,11 +378,8 @@ git version 2.43.0
 </details>
 
 > **📝 บันทึกผล**: 
-```
 บันทึกรูปภาพผลการตรวจสอบ version
 ![alt text](images/version.png)
-```
----
 
 #### 1.2 Clone Repository
 
@@ -493,10 +490,7 @@ a1b2c3d4e5f6   nginx:alpine   "/docker-entrypoint.…"   2 seconds ago  Up 2 sec
 </details>
 
 **บันทึกผลการทดลอง**
-```
-บันทึกรูปผลการทดลอง คำสั่ง docker ps
 ![alt text](images/image.png.png)
-```
 
 เปิด Browser ไปที่ **http://localhost:8080** ควรเห็นหน้า `Welcome to nginx!`
 
@@ -565,12 +559,9 @@ docker exec -it my-nginx sh
 ![docker exec](images/docker-exec-it.png)
 
 **บันทึกผลการรันคำสั่ง docker exec -it และ ls /usr/share/nginx/html**
-
-   ```bash
    บันทึกรูปภาพที่นี่
    ![alt text](image.png)
    ![alt text](image-1.png)
-   ```
 </details>
 
 ---
@@ -647,10 +638,8 @@ exit
 </details>
 
 **บันทึกรูปผลการทดลอง**
-```text
-![alt text](image-2.png)
-```
----
+  ![alt text](image-2.png)
+
 
 ### ❓ คำถามท้ายขั้นตอนที่ 2
 
@@ -884,9 +873,7 @@ docker rm backend
 #### เปิด web browser แล้วทดสอบเข้าที่ http://localhost:5000/api-docs
 
 **บันทึกผลการทดลอง**
-```
 ![alt text](image-3.png)
-```
 ---
 
 ### ❓ คำถามท้ายขั้นตอนที่ 3
@@ -1299,9 +1286,7 @@ curl -X POST http://localhost:5000/api/bookings -H "Content-Type: application/js
 ```
 
 **บันทึกรูปผลการทดลอง**
-```
 ![alt text](image-4.png)
-```
 
 ---
 
