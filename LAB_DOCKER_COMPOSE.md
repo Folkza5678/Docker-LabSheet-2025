@@ -490,7 +490,7 @@ a1b2c3d4e5f6   nginx:alpine   "/docker-entrypoint.…"   2 seconds ago  Up 2 sec
 </details>
 
 **บันทึกผลการทดลอง**
-![alt text](images/image.png.png)
+![alt text](images/image.png)
 
 เปิด Browser ไปที่ **http://localhost:8080** ควรเห็นหน้า `Welcome to nginx!`
 
@@ -562,8 +562,6 @@ docker exec -it my-nginx sh
    บันทึกรูปภาพที่นี่
    ![alt text](image.png)
    ![alt text](image-1.png)
-</details>
-
 ---
 
 #### 2.3 ดูรายละเอียดและ Inspect
